@@ -32,8 +32,8 @@ export const MovieDetail = () => {
       <div className="bg-neutral-50 bg-opacity-85 rounded px-10 py-5 mt-8">
         <button
           onClick={goBack}
-          className="uppercase font-semibold hover:text-moviered_dark hover:transition-all my-6">
-          ← Back to search page
+          className="uppercase font-semibold hover:text-moviered hover:transition-all my-6">
+          ← Back to previous page
         </button>
         {data && (
           <>
