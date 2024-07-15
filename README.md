@@ -72,11 +72,11 @@ This is a movie and TV series search app built with React, TypeScript, and Tailw
 
 - node_modules/
 - public/
-- src/
   - assets/
     - fonts/
     - icons/
     - img/
+- src/
   - components/
     - Footer.tsx
     - Header.tsx
