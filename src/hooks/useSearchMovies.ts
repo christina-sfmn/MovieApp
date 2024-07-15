@@ -8,7 +8,7 @@ const apiKey = "56edad45";
 const searchMovies = async (Title: string, Type: string) => {
   try {
     const response = await axios.get(
-      `http://www.omdbapi.com/?apikey=${apiKey}&s=${Title}&type=${Type}`
+      `https://www.omdbapi.com/?apikey=${apiKey}&s=${Title}&type=${Type}`
     );
     return response.data;
   } catch (error) {

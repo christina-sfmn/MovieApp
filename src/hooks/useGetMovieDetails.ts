@@ -8,7 +8,7 @@ const apiKey = "56edad45";
 const getMovieDetails = async (imdbID: string) => {
   try {
     const response = await axios.get(
-      `http://www.omdbapi.com/?apikey=${apiKey}&i=${imdbID}`
+      `https://www.omdbapi.com/?apikey=${apiKey}&i=${imdbID}`
     );
     return response.data;
   } catch (error) {

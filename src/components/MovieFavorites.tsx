@@ -51,8 +51,8 @@ export const MovieFavorites = () => {
         </h2>
         <button
           onClick={goBack}
-          className="uppercase font-semibold hover:text-moviered_dark hover:transition-all my-6">
-          ← Back to search page
+          className="uppercase font-semibold hover:text-moviered hover:transition-all my-6">
+          ← Back to previous page
         </button>
         {favorites.length === 0 ? (
           <p className="text-xl text-center pt-16 pb-20">
@@ -62,7 +62,7 @@ export const MovieFavorites = () => {
           <ul>
             {favorites.map((movie) => (
               <li key={movie.imdbID} className="mb-3 p-5 bg-neutral-50 rounded md:text-left text-center">
-                <h3 className="text-xl font-semibold">{movie.Title}</h3>
+                <h3 className="text-xl font-semibold hover:text-moviered hover:cursor-pointer" onClick={() => navigate(`/movie/${movie.imdbID}`)}>{movie.Title}</h3>
                 <p>
                   {movie.Year} /{" "}
                   <span className="capitalize">{movie.Type}</span>
