@@ -38,13 +38,13 @@ This is a movie and TV series search app built with React, TypeScript, and Tailw
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/christina-sfmn/movieapp.git
+   git clone https://github.com/christina-sfmn/MovieApp.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd movieapp
+   cd MovieApp
    ```
 
 3. Install dependencies:
